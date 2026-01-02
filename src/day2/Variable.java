@@ -36,7 +36,7 @@ public class Variable {
 			 * 5.float->Decimal Number -> 4 byte
 			 * 6.double->Decimal Number -> 8 byte
 			 * 7.char -> 2byte -> unicode encoding
-			 * 8.boolean -> True / False ->1 bit
+			 * 8.boolean -> True / False ->1 bit = 1 byte
 			 * 
 			 * 
 			 * NON PRIMITIVE DATA TYPE
