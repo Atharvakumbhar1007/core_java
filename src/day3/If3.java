@@ -4,8 +4,10 @@ import java.util.Scanner;
 
 //WAP to accept 2 numbers and operator (+,-,*,/)
 //Based on operator perform results
-
+//Here we use "IF ELSE" Ladder
 //Input = 3 Condition = 5
+//println use"+n1+"
+//printf use %d
 
 public class If3 {
 
