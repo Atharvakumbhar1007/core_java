@@ -16,5 +16,8 @@ public class MainClass1 {
 		//now I want to modify default values
 		//Change private ->setters
 		//Access private ->getters
+		p1.setName("Rohan Pandey");
+		p1.setGender("Male");
+		System.out.println(p1);
 	}
 }

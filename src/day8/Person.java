@@ -9,7 +9,7 @@ public class Person {
 	    
 	    private String gender;
 	    
-	    private boolean active;
+	    private  boolean active;
 	    
 	    //Constructor -> Method
 	    //Default Constructor -> No parameters
@@ -30,7 +30,41 @@ public class Person {
 	    	gender = g;
 	    	active = act;
 	    }
+	    
+	    //setters/getter
+	    public void setName (String n) {
+	    	name = n;
+	    }
+	    
+	    public String getName () {
+	    	return name;
+	    }
 
+	    public void setGender (String g) {
+	    	gender = g;
+	    }
+	    
+	    public String getGender() {
+	    	return gender;
+	    }
+	    
+	    public void setAge (int a) {
+	    	age = a;
+	    }
+	    
+	    public int getAge() {
+	    	return age;
+	    }
+	    
+	    public void setActive (boolean act) {
+	    	active = act ;
+	    }
+	    
+	    public boolean getActive() {
+	    	return active;
+	    }
+	    
+	    
 	    //ALT + SHIFT + Y -> WORD WRAP
 		@Override
 		public String toString() {
