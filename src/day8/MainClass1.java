@@ -18,6 +18,8 @@ public class MainClass1 {
 		//Access private ->getters
 		p1.setName("Rohan Pandey");
 		p1.setGender("Male");
+		p1.setActive(false);
+		p1.setAge(55);
 		System.out.println(p1);
 	}
 }
