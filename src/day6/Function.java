@@ -17,7 +17,7 @@ public class Function {
         int n1 = sc.nextInt();
         int n2 = sc.nextInt();
 
-        int result = n1 + n2;
+        int result = n1 + n2;  
         System.out.println("Addition of " + n1 + ", "
         		+ "" + n2 + " = " + result);   
     }

@@ -1,2 +1,3 @@
-2026/03/12-16:58:02.937 6474 Creating DB C:\SPRK TECT\core_java\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\shared_proto_db since it was missing.
-2026/03/12-16:58:02.946 6474 Reusing MANIFEST C:\SPRK TECT\core_java\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\shared_proto_db/MANIFEST-000001
+2026/03/30-09:44:18.431 5cec Reusing MANIFEST C:\SPRK TECT\core_java\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\shared_proto_db/MANIFEST-000001
+2026/03/30-09:44:18.432 5cec Recovering log #3
+2026/03/30-09:44:18.433 5cec Reusing old log C:\SPRK TECT\core_java\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\shared_proto_db/000003.log 

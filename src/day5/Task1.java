@@ -28,15 +28,14 @@ public class Task1 {
 		}else {
 			System.out.println(n +" is not an Armstrong Number");
 		}
-		System.out.println("Totaldigit = ");
-		
+		sc.close();
+		 
 	}
 }
 
 /*						***ANOTHER METHOD***
  * 
  * package day5;
-
 import java.util.Scanner;
 
 public class Task1 {
