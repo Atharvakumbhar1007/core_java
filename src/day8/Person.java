@@ -23,41 +23,41 @@ public class Person {
 	    }
 	    
 	    //Parameterized constructor
-	    Person(String n, int a, String g, boolean act){
+	    Person(String name, int age, String gender, boolean active){
 	    	System.out.println("Parameter contructor od person class");
-	    	name = n;
-	    	age = a;
-	    	gender = g;
-	    	active = act;
+	    	this.name = name;
+	    	this.age = age;
+	    	this.gender = gender;
+	    	this.active = active;
 	    }
 	    
 	    //setters/getter
-	    public void setName (String n) {
-	    	name = n;
+	    public void setName (String name) {
+	    	this.name = name;
 	    }
 	    
 	    public String getName () {
 	    	return name;
 	    }
 
-	    public void setGender (String g) {
-	    	gender = g;
+	    public void setGender (String gender) {
+	    	this.gender = gender;
 	    }
 	    
 	    public String getGender() {
 	    	return gender;
 	    }
 	    
-	    public void setAge (int a) {
-	    	age = a;
+	    public void setAge (int aage) {
+	    	this.age = age;
 	    }
 	    
 	    public int getAge() {
 	    	return age;
 	    }
 	    
-	    public void setActive (boolean act) {
-	    	active = act ;
+	    public void setActive (boolean active) {
+	    	this.active = active ;
 	    }
 	    
 	    public boolean getActive() {
