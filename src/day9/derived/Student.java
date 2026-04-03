@@ -17,6 +17,16 @@ public class Student {
 	 public Student() {
 		 //TOOD Auto-generated constructor stub
 	 }
+	 
+	 public Student(int age, String gender, String name, int rollNo, double percentage) {
+		 super();
+		 this.age = age;
+		 this.gender = gender;
+		 this.name = name;
+		 this.rollNo = rollNo;
+		 this.percentage = percentage;
+	
+	 }
 
 	 public int getAge() {
 		return age;
@@ -65,3 +75,6 @@ public class Student {
 				+ percentage + "]";
 	}
 }
+/*
+ * Alter table tblname
+ * rename old_col to new_col*/
