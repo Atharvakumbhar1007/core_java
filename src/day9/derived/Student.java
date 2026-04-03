@@ -1,55 +1,27 @@
 package day9.derived;
 
-public class Student {
+import day9.base.Person;
+
+public class Student extends Person {
 
 	//name, age, gender, rollno, percentage
-	
-	private int age;
-	
-	private String gender;
-	
-	private String name;
 	
 	private int rollNo;
 	
 	private double percentage;
 	
 	 public Student() {
-		 //TOOD Auto-generated constructor stub
+		 super();
+		 System.out.println("Default contructor of Student Class");
 	 }
 	 
+	 //parameterized constructor
 	 public Student(int age, String gender, String name, int rollNo, double percentage) {
-		 super();
-		 this.age = age;
-		 this.gender = gender;
-		 this.name = name;
+		 super(name,age,gender); //default constructor call of base class
+		 System.out.println("Parameterized contructor of Student Class");
 		 this.rollNo = rollNo;
 		 this.percentage = percentage;
 	
-	 }
-
-	 public int getAge() {
-		return age;
-	}
-
-	 public void setAge(int age) {
-		 this.age = age;
-	 }
-
-	 public String getGender() {
-		 return gender;
-	 }
-
-	 public void setGender(String gender) {
-		 this.gender = gender;
-	 }
-
-	 public String getName() {
-		 return name;
-	 }
-
-	 public void setName(String name) {
-		 this.name = name;
 	 }
 
 	 public int getRollNo() {
@@ -71,7 +43,7 @@ public class Student {
 
 	 @Override
 	public String toString() {
-		return "Student [age=" + age + ", gender=" + gender + ", name=" + name + ", rollNo=" + rollNo + ", percentage="
+		return super.toString()+"Student [ rollNo=" + rollNo + ", percentage="
 				+ percentage + "]";
 	}
 }

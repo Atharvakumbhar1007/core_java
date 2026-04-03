@@ -3,11 +3,11 @@ package day9.base;
 public class Person {
 
 		 // FIELDS
-	    String name;
+	    protected String name;
 	    
-	    int age;
+	    protected int age;
 	    
-	    String gender;
+	    protected String gender;
 	    
 	    public Person(){
 	    	System.out.println("Default constructor of Person Class");
@@ -15,7 +15,7 @@ public class Person {
 	    }
 	    
 	    //Parameterized constructor
-	    Person(String name, int age, String gender, boolean active){
+	    public Person(String name, int age, String gender){
 	    	System.out.println("Parameter contructor od person class");
 	    	this.name = name;
 	    	this.age = age;
