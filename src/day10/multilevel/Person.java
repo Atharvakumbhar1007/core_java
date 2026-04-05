@@ -13,7 +13,7 @@ public class Person {
 	}
 
 	public Person(String name, int age, String gender) {
-		super();
+		System.out.println("person with parameterize constructor");
 		this.name = name;
 		this.age = age;
 		this.gender = gender;
