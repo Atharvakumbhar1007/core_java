@@ -1,7 +1,7 @@
 package day10.multilevel;
 
 public class PartTimeEmployee extends Employee{
-	
+	  
 	private double dailyWage;
 	private int numOfDays;
 	
