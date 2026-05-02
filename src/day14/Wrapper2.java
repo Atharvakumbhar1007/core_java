@@ -25,5 +25,9 @@ public class Wrapper2 {
 		
 		System.out.println("Unbox Manual =" +decimalUnboxManual);
 		System.out.println("Unbox Auto =" +decimalUnbox);
+		
+		Float decimalFloatNum = decimalWrapper.floatValue(); //Explicit type casting
+		
+		System.out.println(decimalFloatNum);
 	}
 }
