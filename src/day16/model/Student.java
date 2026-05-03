@@ -1,0 +1,36 @@
+package day16.model;
+
+public class Student {
+
+	private String name;
+	
+	private int rollNo;
+	
+	private String gender;
+	
+	private double percentage;
+
+	
+	
+	public Student(String name, int rollNo, String gender, double percentage) {
+		super();
+		this.name = name;
+		this.rollNo = rollNo;
+		this.gender = gender;
+		this.percentage = percentage;
+	}
+
+	public Student() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public String toString() {
+		return "Student [name=" + name + ", rollNo=" + rollNo + ", gender=" + gender + ", percentage=" + percentage
+				+ "]";
+	}
+	
+	
+}
+

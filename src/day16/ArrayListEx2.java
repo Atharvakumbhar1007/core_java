@@ -37,5 +37,22 @@ public class ArrayListEx2 {
 		
 		System.out.println(fruits.remove("Apple"));
 		
+		System.out.println(fruits);
+		
+		//Loops to print element
+		
+		System.out.println("All fruits using normal for loops are: ");
+		for(int i = 0; i < fruits.size(); i++) {
+			System.out.println("I like  "+fruits.get(i));
+		}
+		System.out.println("All fruits using enhance for loops are:");
+		
+		//Enhance for loop
+		System.out.println("All fruits using enhanced for loop are: ");
+		for(String fruit : fruits) {
+			
+			System.out.println("I have "+fruit+"in refrigerator");
+		}
+		
 	}
 }
