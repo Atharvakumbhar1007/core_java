@@ -36,6 +36,17 @@ public class ArrayList1 {
  		
  		System.out.println(numbers);
  		numbers.addAll(1, newCollection);
+ 		System.out.println(numbers);
  		
+ 		System.out.println("Length of Arraylist = "+numbers.size());
+ 		
+ 		System.out.println("Accessing Elemnts");
+ 		System.out.println("Element at index 3 ="+numbers.get(3));
+
+ 		System.out.println("First Element ="+numbers.getFirst());
+ 		System.out.println("Last Element ="+numbers.getLast());
+ 		
+ 		System.out.println("Element delected at index 2  ="+numbers.remove(2));
+ 		System.out.println(numbers);
 	}
 }
