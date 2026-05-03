@@ -23,6 +23,8 @@ public class Arr4 {
 		for(i = 0; i < arr.length; i++) {
 			System.out.println(arr[i]+ "\t");
 		}
+		
+		
 	}
 	
 }
