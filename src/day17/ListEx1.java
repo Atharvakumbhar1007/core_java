@@ -25,5 +25,21 @@ public class ListEx1 {
 		System.out.println("List after Sorting in decending order: ");
 		list.sort(Comparator.reverseOrder());
 		System.out.println(list);
+		
+		ArrayList<String> name = new ArrayList<String>();
+		name.add("Shriti");
+		name.add("Sakshio");
+		name.add("Om");
+		name.add("Aditya");
+		name.add("Dharamraj");
+		name.add("Ayush");
+		name.add("Rajesh");
+		
+		System.out.println("Names before sorting: ");
+		System.out.println(name);
+		
+		name.sort(null);
+		System.out.println("Names afetr sorting in ASC: ");
+		System.out.println(name);
 	}
 }
