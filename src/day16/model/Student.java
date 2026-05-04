@@ -10,7 +10,10 @@ public class Student {
 	
 	private double percentage;
 
-	
+	public Student() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 	
 	public Student(String name, int rollNo, String gender, double percentage) {
 		super();
@@ -20,12 +23,7 @@ public class Student {
 		this.percentage = percentage;
 	}
 
-	public Student() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
-
-	@Override
+	  @Override
 	public String toString() {
 		return "Student [name=" + name + ", rollNo=" + rollNo + ", gender=" + gender + ", percentage=" + percentage
 				+ "]";
