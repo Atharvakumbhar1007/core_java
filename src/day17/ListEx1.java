@@ -1,6 +1,7 @@
 package day17;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Comparator;
 
 public class ListEx1 {
@@ -19,6 +20,7 @@ public class ListEx1 {
 		System.out.println(list);
 		
 		System.out.println("List after Sorting in ascending order: ");
+		//Sorting Algo is TIMESORT
 		list.sort(null);
 		System.out.println(list);
 		
@@ -40,6 +42,10 @@ public class ListEx1 {
 		
 		name.sort(null);
 		System.out.println("Names afetr sorting in ASC: ");
+		System.out.println(name);
+		
+		name.sort(Comparator.reverseOrder()); 
+		System.out.println("Names afetr sorting in DSC: ");
 		System.out.println(name);
 	}
 }
