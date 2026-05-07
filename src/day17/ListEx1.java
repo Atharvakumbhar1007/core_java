@@ -20,7 +20,7 @@ public class ListEx1 {
 		System.out.println(list);
 		
 		System.out.println("List after Sorting in ascending order: ");
-		//Sorting Algo is TIMESORT
+		//Sorting Algo is TIMSORT
 		list.sort(null);
 		System.out.println(list);
 		
