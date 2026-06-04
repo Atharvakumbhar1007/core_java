@@ -4,7 +4,7 @@ import day9.base.Person;
 
 public class Student extends Person {
 
-	//name, age, gender, rollno, percentage
+	//name, age, gender, roll no, percentage
 	
 	private int rollNo;
 	

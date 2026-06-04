@@ -21,7 +21,7 @@ public class Function {
         System.out.println("Addition of " + n1 + ", "
         		+ "" + n2 + " = " + result);   
     }
-    public static void Subtraction(int n1,int n2) {
+    public static void Subtraction(int n1,int n2) { 
     	int result = n1 - n2;
     	
     	System.out.println("Subtraction  of " + n1 + ", "

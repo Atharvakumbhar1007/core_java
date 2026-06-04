@@ -41,6 +41,7 @@ public class Employee extends Person {
 
 	public void calculateTax() {
 		if(employeeSalary >= 15000) {
+			System.out.println("15% tax deducted");
 			employeeSalary = employeeSalary - 0.15*employeeSalary;
 		}else {
 			System.out.println("No tax deducted");
