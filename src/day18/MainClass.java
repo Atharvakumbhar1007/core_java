@@ -1,5 +1,9 @@
 package day18;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class MainClass {
 
 	public static void main (String[] args) {
@@ -11,5 +15,13 @@ public class MainClass {
 		Calculator calculator = (n1,n2)-> n1+n2;
 		
 		System.out.println(calculator.sum(70,40));
+		
+		Demo demo = () ->System.out.println("Hello All");
+		
+		demo.sayHello();
+		
+		List<Integer> numbers = Arrays.asList(10,20,30,40,50,60,70,80,90,-100,-90,-80);
+		
+		numbers.forEach((element)-> System.out.println("Value is = "+element));
 	}
 }
