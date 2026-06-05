@@ -13,6 +13,6 @@ public class TypeCasting {
 		
 		int cube = (int)Math.pow(n1, n2); //explicit typecasting
 
-		System.out.println(n1 + "raise to "+n2 +" = "+cube);
+		System.out.println(n1 + " raise to "+n2 +" = "+cube);
 	}
 }

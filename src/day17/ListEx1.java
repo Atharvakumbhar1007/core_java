@@ -29,8 +29,8 @@ public class ListEx1 {
 		System.out.println(list);
 		
 		ArrayList<String> name = new ArrayList<String>();
-		name.add("Shriti");
-		name.add("Sakshio");
+		name.add("Shruti");
+		name.add("Sakshi");
 		name.add("Om");
 		name.add("Aditya");
 		name.add("Dharamraj");
