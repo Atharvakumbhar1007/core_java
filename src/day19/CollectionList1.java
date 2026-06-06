@@ -1,11 +1,11 @@
 package day19;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 
 public class CollectionList1 {
 
 	public static void main(String[] args) {
-		
 		LinkedList<Integer> numbers = new LinkedList<Integer>();
 		
 		numbers.add(-7);
@@ -24,8 +24,12 @@ public class CollectionList1 {
 		
 		numbers.add(3, 1000);
 		System.out.println(numbers);
-		
-		numbers.poll();
+		System.out.println("Gives which element will be deleted from head not delete ="+numbers.pop());
 		System.out.println(numbers);
+		System.out.println("Deleted element from head ="+numbers.pop());
+		System.out.println(numbers);
+		System.out.println("Deleted element from head ="+numbers.pop());
+		
+		
 	}
 }
