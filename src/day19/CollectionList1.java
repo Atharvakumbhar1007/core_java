@@ -18,5 +18,14 @@ public class CollectionList1 {
 		numbers.push(9);
 		
 		System.out.println(numbers);
+		
+		numbers.offer(66);
+		System.out.println(numbers);
+		
+		numbers.add(3, 1000);
+		System.out.println(numbers);
+		
+		numbers.poll();
+		System.out.println(numbers);
 	}
 }
