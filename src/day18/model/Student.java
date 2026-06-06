@@ -23,10 +23,18 @@ public class Student implements Comparable<Student> {
 	}
 
 	@Override
+	public String toString() {
+		return "Student [rollNo=" + rollNo + ", name=" + name + ", deparment=" + deparment + ", percentage="
+				+ percentage + "]";
+	}
+	
+	@Override
 	public int compareTo(Student obj) {
 		// TODO Auto-generated method stub
 		
-		return Integer.compare(rollNo, obj.rollNo);
+		return Integer.compare(obj.rollNo, rollNo);
 
 	}
+	
+	
 }
