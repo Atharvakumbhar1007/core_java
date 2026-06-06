@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.CompareGenerator;
-
 import day19.model.Student;
 
 public class StudentMain3 {
@@ -28,10 +26,15 @@ public class StudentMain3 {
 		Comparator<Student> comparator = (s1,s2)-> {
 			int percentageCompare = Double.compare(s2.getPercentage(), s1.getPercentage());
 			int rollNoCompare = Integer.compare(s1.getRollNo(), s2.getRollNo());
-			if(	percentageCompare== 0) {
-				return rollNoCompare;
-			}
-				return percentageCompare;
+			
+//			if(	percentageCompare== 0) {
+//				return rollNoCompare;
+//			}
+//				return percentageCompare;
+			//ternary oprator
+			
+			return(percentageCompare== 0)? 
+			rollNoCompare : percentageCompare;
 		};
 		
 		students.sort(comparator);
