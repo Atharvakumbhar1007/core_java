@@ -1,13 +1,14 @@
 package day20;
 
-import java.net.SocketTimeoutException;
 import java.util.HashSet;
 import java.util.Set;
+import java.util.TreeSet;
 
-public class SetEx1 {
+public class SetEx2 {
 	
 	public static void main(String[] args) {
-		Set<String> favFruit = new HashSet<String>();
+		
+		Set<String> favFruit = new TreeSet<String>();
 		
 		favFruit.add("BlueBerry");
 		favFruit.add("Banana");
