@@ -24,10 +24,9 @@ public class SetEx2 {
 		System.out.println(favFruit);
 		
 		favFruit.contains("Banana");
-		
 		System.out.println(favFruit);
 		
-		favFruit.forEach((fruit)->System.out.println(fruit));//Lamda Expression
+		favFruit.forEach((fruit)->System.out.println(fruit));	//Lambda Expression
 		
 		System.out.println("Before removing all fruits with letter 'a'");
 		System.out.println(favFruit);
