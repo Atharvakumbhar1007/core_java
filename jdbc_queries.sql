@@ -8,3 +8,5 @@ SHOW TABLES;
 
 -- View Structure
 DESC student;
+
+select * from student;
