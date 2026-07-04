@@ -44,7 +44,23 @@ public class Str2 {
 		//when testing through tools like postman -> we don't
 		//pass value in object(body)
 		
+		if(str1 != null && str1.isBlank()) {
+			System.out.println("Strin is empty");
+		}else {
+			System.out.println("String is not empty");
+		}
 		
+		str1 = "";
+		if(str1 != null && !str1.isBlank()) {
+			System.out.println("Strin is empty");
+		}else {
+			System.out.println("String is not empty");
+		}
+		
+		str1 ="		Hello	";
+		System.out.println(str1.length());
+		System.out.println(str1.trim());
+		System.out.println(str1.trim().length());
 	}
 
 }
