@@ -1,0 +1,40 @@
+package day23.strings;
+
+public class Str2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str ="Hello, I am learning Java, and I enjoy learning Java";
+		
+		System.out.println("Char at index 1 ="+str.charAt(1));
+		
+		System.out.println(str.indexOf("Java"));
+		System.out.println(str.lastIndexOf("Java"));
+		
+		System.out.println("My String starts with H? "+str.startsWith("H"));
+		System.out.println("My String starts with Hii? "+str.startsWith("Hii"));
+		
+		String str1 = "SPRK";
+		String str2 = "SPRK";
+		
+		System.out.println("Both string values are same or not? "+str1.equals(str2));
+		
+		str1 = "SPRK";
+		str2 = "sprk";
+		
+		System.out.println("Both string values are same or not? "+str1.equalsIgnoreCase(str2));
+
+		System.out.println("Str contain enjoy term "+str.contains
+				("enjoy"));
+		
+		System.out.println("str = "+str);
+		
+		System.out.println(str.replace("Java","Python"));
+		
+		System.out.println("str = "+str);
+		
+		System.out.println(str.substring(1));
+		System.out.println(str.substring(21,26));
+	}
+
+}
