@@ -33,8 +33,18 @@ public class Str2 {
 		
 		System.out.println("str = "+str);
 		
-		System.out.println(str.substring(1));
+		System.out.println(str.substring(11));
+		
 		System.out.println(str.substring(21,26));
+		
+		System.out.println(str.toUpperCase());
+			System.out.println(str);
+			
+		str1 = null; // form submit -> no value give -> ""
+		//when testing through tools like postman -> we don't
+		//pass value in object(body)
+		
+		
 	}
 
 }
