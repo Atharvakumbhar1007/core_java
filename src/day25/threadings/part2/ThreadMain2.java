@@ -19,7 +19,7 @@ public class ThreadMain2 {
 		thread1.join();
 		
 		thread2.start();
-		thread2.join();
+		thread2.join(5000);
 		
 		System.out.println("I ma Main Message My Thread Name is:"+Thread.currentThread() .getName());
 	}
