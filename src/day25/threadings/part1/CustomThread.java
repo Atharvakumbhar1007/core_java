@@ -1,4 +1,4 @@
-package day25.threadings;
+package day25.threadings.part1;
 
 public class CustomThread extends Thread {
 
