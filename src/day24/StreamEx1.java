@@ -19,12 +19,18 @@ public class StreamEx1 {
 //			.collect(Collectors.toList());
 		
 		List<Integer> positiveNumbers = numbers
-				.stream()
+				.stream()//terminaty opertions
 				.filter((num)-> (num > 0))
+				.toList();
+		
+		List<Integer> negativeIntegers = numbers
+				.stream()
+				.filter((num)-> (num < 0))
 				.toList();
 		
 		System.out.println("All Numbers = "+numbers);
 		System.out.println("Only Positive Numbers = "+positiveNumbers);
+		System.out.println("Only Negative Numbers = "+negativeIntegers);
 		
 		
 	}
