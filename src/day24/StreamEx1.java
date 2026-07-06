@@ -32,6 +32,13 @@ public class StreamEx1 {
 		System.out.println("Only Positive Numbers = "+positiveNumbers);
 		System.out.println("Only Negative Numbers = "+negativeIntegers);
 		
+		//create a new list with multiple of 5 to positive numbers
 		
+		List<Integer> multipleOfFive = positiveNumbers
+				.stream()
+				.map(num-> num * 5)
+				.toList();
+		
+		System.out.println("Positive Numbers multiplied by 5 = " + multipleOfFive);
 	}
 }
