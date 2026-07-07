@@ -15,8 +15,8 @@ public class CustomThread extends Thread {
 
 		for(int i = 1; i<=50;i++) {
 			counter.increment();
-			System.out.println("Value of counter by "+Thread.currentThread().getName()+" is = "+counter.count);
 		}
+		System.out.println("Value of counter by "+Thread.currentThread().getName()+" is = "+counter.count);
 		
 	}
 	

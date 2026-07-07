@@ -13,11 +13,10 @@ public class MainThread {
 		t2.setName("Thread 2");
 		
 		t1.start();
-		t1.join();
-		t2.start();
-		t2.join();
 		
-		System.out.println("Value of counter in main is "+counter.count);
+		t2.start();
+	
+		
 	}
 
 }
