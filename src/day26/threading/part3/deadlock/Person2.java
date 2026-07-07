@@ -18,7 +18,4 @@ public class Person2 extends Thread{
 		notebook.use();
 		pen.write(notebook);
 	}
-	
-	
-	 
 }
