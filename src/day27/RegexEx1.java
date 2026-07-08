@@ -18,6 +18,25 @@ public class RegexEx1 {
 				+Pattern.matches("^[abc]$", "c"));
 		System.out.println("String contain any letter a,b,c? "
 				+Pattern.matches("^[abcABC]$", "A"));
+		System.out.println("String contain any letter a,b,c? "
+				+Pattern.matches("^[a-zA-Z]$", "aAzZ"));
+		System.out.println("String contain any letter a,b,c? "
+				+Pattern.matches("^[0-9]$", "10"));
+		
+		//Many Numbers/or Many Charaters?
+		
+		System.out.println("String contain any letter a,b,c? "
+				+Pattern.matches("^[0-9]$", "10"));
+		System.out.println("String contain any letter a,b,c? "
+				+Pattern.matches("^[0-9]$", "1007"));
+		
+		//n+	Matches any string that contains at least one n
+		System.out.println("String contain any letter a,b,c? "
+				+Pattern.matches("^[0-9]+$", "10"));
+		System.out.println("String contain any letter a,b,c? "
+				+Pattern.matches("^[0-9]+$", "107"));
+		
+		
 	}
 
 }
