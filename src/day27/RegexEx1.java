@@ -65,7 +65,6 @@ public class RegexEx1 {
 		
 		// A-Za-z0-9
 		System.out.println("Characters and Numbers: "+Pattern.matches("^\\w+$", "Hello123"));
-		
 		System.out.println("Only Space: "+Pattern.matches("^\\s+$", "      "));
 		System.out.println("Only Space: "+Pattern.matches("^\\s+$", "  H     "));
 		System.out.println("Non Space: "+Pattern.matches("^\\S+$", "Hello World"));
